@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #222222;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -174,7 +174,14 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		color: #FF007E;
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
+	}
+
+	h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
@@ -3236,15 +3243,15 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #1d1d1d;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #222222;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #1d1d1d;
 		}
 
 		.wrapper.style2 {
@@ -3370,7 +3377,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #1a1a1a;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3531,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #1a1a1a;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,14 +3768,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #33212a;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #5e34c1, #a02c65);
+				background-image: -webkit-linear-gradient(to right, #5e34c1, #a02c65);
+				background-image: -ms-linear-gradient(to right, #5e34c1, #a02c65);
+				background-image: linear-gradient(to right, #5e34c1, #a02c65);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
